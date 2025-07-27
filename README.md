@@ -31,24 +31,24 @@ An intelligent Resume Analyzer that compares resumes with job descriptions, prov
 ## 📁 Project Structure
 
 resume_analyzer/
-├── app.py # Streamlit frontend
+├── **app.py** (*Streamlit frontend*)
 
-├── analyze_resume.py # Main backend orchestrator
+├── **analyze_resume.py** (*Main backend orchestrator*)
 
-├── gemini_feedback.py # Gemini prompt logic
+├── **gemini_feedback.py** (*Gemini prompt logic*)
 
-├── summarizer.py # Gemini-based summarizer
+├── **summarizer.py** (*Gemini-based summarizer*)
 
-├── report_generator.py # PDF & JSON report generation
+├── **report_generator.py** (*PDF report generation*)
 
-├── skill_gap_checker.py # Skill Gap Detection
+├── **skill_gap_checker.py** (*Skill Gap Detection*)
 
-├── ner_parser.py # Entity Extraction
+├── **ner_parser.py** (*Entity Extraction*)
 
-├── sample_resume.pdf
+├── **sample_resume.pdf**
 
-├── sample_jd.txt
+├── **sample_jd.txt**
 
-├── reports/ # Stores generated reports
+├── **reports/** 
 
-│ ├── resume_report.pdf
+│ ├── *resume_report.pdf*
