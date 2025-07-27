@@ -1,2 +1,5 @@
 pdfplumber
 streamlit
+google generativeai
+fpdf2
+PyMuPDF
